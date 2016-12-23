@@ -8,6 +8,8 @@ password: "123"
 port: 3100
 host: localhost
 
+nickname: "小萌姬"
+
 # message handling, ignore offline message 20 min ago
 # offline_msg_keeptime: 1200
 
@@ -16,7 +18,12 @@ plugins:
     - help
     - debug
     - apiserver
+    - tuling
 
 # apiserver plugin configration
 api_port:  3200
 api_token: ''
+
+
+# tuling
+api_key: "9f9a5957a0134f5d84ec44811525ee9e"
